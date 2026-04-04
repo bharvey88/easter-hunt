@@ -1,5 +1,5 @@
 
-const totalLetters = "YOLKEDUP".split("");
+const totalLetters = "BUNNY".split("");
 const allEggCount = 50;
 const pageName = window.location.pathname.split("/").pop().replace(".html", "");
 const pages = ["forest", "beach", "garden", "countryside", "meadow"];
@@ -97,8 +97,8 @@ function checkCode() {
   const input = document.getElementById("codeInput")?.value.toUpperCase();
   const result = document.getElementById("result");
   if (!result) return;
-  if (input === "YOLKEDUP") {
-    result.innerHTML = "🎉 You got it! Thanks for playing and Happy Easter. Please <a href='https://dyno.gg/giveaway/8eeabf37' target='_blank'>click here</a> to enter in our giveaway to win a free sensor of your choice (air-1 excluded).";
+  if (input === "BUNNY") {
+    result.textContent = "🎉 You got it! Thanks for playing and Happy Easter. Please comment on the Reddit post to enter our giveaway!";
   } else {
     result.textContent = "❌ Oops! That’s not quite right. Try again!";
   }
