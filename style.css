@@ -112,15 +112,17 @@ main {
 .egg-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 15px;
-  padding: 20px;
+  gap: 10px;
+  padding: 16px;
   max-width: 600px;
   margin: auto;
+  box-sizing: border-box;
 }
 
 .egg {
-  width: 80px;
-  height: 100px;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  height: auto;
   background-image: url('egg.png');
   background-size: cover;
   background-position: center;
