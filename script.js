@@ -96,7 +96,7 @@ function checkCode() {
   const result = document.getElementById("result");
   if (!result) return;
   if (input === "BUNNY") {
-    result.textContent = "🐰 Happy Easter from all of us at Apollo Automation! You cracked the code! Comment on the Reddit post to enter the giveaway — winners can choose an MSR-2, MTR-1, PLT-1, or TEMP-1!";
+    result.textContent = "🐰 Happy Easter from all of us at Apollo Automation! You cracked the code. Comment on the Reddit post to enter the giveaway and choose your prize: MSR-2, MTR-1, PLT-1, or TEMP-1.";
   } else {
     result.textContent = "❌ Oops! That’s not quite right. Try again!";
   }
