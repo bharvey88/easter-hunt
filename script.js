@@ -96,7 +96,7 @@ function checkCode() {
   const result = document.getElementById("result");
   if (!result) return;
   if (input === "BUNNY") {
-    result.textContent = "🐰 Happy Easter from all of us at Apollo Automation! You cracked the code. Comment on the Reddit post to enter the giveaway and choose your prize: MSR-2, MTR-1, PLT-1, or TEMP-1.";
+    result.innerHTML = "🐰 Happy Easter from all of us at Apollo Automation! You found the secret word! The winner will get to choose one of the following sensors: MSR-2, MTR-1, PLT-1, or TEMP-1. Comment on <a href='REDDIT_LINK_PLACEHOLDER' target='_blank' rel='noopener'>this Reddit post</a> to enter! The giveaway will end on April 6th at noon EST and a random winner will be chosen using rdtpicker.com.";
   } else {
     result.textContent = "❌ Oops! That’s not quite right. Try again!";
   }
